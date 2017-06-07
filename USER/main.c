@@ -37,12 +37,12 @@
 		OLED_ShowCHinese(108,2,13);
 		OLED_ShowString(0,4,"Stay Simple,");
 		OLED_ShowString(40,6,"Stay Naive.");
-		for(i=0;i<=999;i++)
+		for(i=1;i<60;i++)
 		{
 			OLED_ShowChar(0,6,'+');
-			OLED_ShowNum(8,6,i,3,16);
-			OLED_ShowChar(32,6,'s');
-			delay_ms(200);
+			OLED_ShowNum(8,6,i,2,16);
+			OLED_ShowChar(24,6,'s');
+			delay_ms(1000);
 		}
 //		OLED_ShowString(0,0,"imxyu.github.io");
 //		OLED_ShowString(0,2,"OLED12864 TEST"); 
